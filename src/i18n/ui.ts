@@ -3,9 +3,9 @@ export const defaultLang = 'en' as const;
 export const ui = {
   'en': {
     // Site Metadata
-    'siteMetadata.title': 'Astro Starter Blog',
-    'siteMetadata.headerTitle': 'Astro Starter Blog',   
-    'siteMetadata.description': 'A blog created with Astro and Tailwind.css',
+    'siteMetadata.title': 'caisson.app',
+    'siteMetadata.headerTitle': 'caisson.app blog',   
+    'siteMetadata.description': 'caisson.app',
     'siteMetadata.language': 'en-US',
 
     // Pages
@@ -38,7 +38,7 @@ export const ui = {
     'components.listPostCover.publishedAt': 'Published at',
     'components.pagination.previous': 'Previous',
     'components.pagination.next': 'Next',
-    'components.socialShareButtons.sharing': 'Sharing is caring!',
+    'components.socialShareButtons.sharing': '',
 
     // Navigation
     'nav.home': 'Home',
