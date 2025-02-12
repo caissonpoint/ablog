@@ -182,11 +182,11 @@ const { Content, headings } = await post.render();
               <slot />
               <Content />
             </div>
-            {
-              ['bottom', 'both'].includes(POST_METADATA.showShareButtons) ? (
-                <SocialShareButtons title={post.data.title} description={post.data.summary} />
-              ) : null
-            }
+            <!--               {
+            <!--                 ['bottom', 'both'].includes(POST_METADATA.showShareButtons) ? (
+            <!--                 <SocialShareButtons title={post.data.title} description={post.data.summary} />
+            <!--                 ) : null
+            <!--               }
             <!--    <div class="pb-6 pt-6 text-sm text-gray-700 dark:text-gray-300">-->
             <!--        <Link href={discussUrl(path)} rel="nofollow">-->
             <!--            Discuss on Twitter-->
